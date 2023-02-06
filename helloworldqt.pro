@@ -5,7 +5,7 @@ TEMPLATE = app
 
 TARGET = helloworldqt
 
-DESTDIR = build/
+message($(QTDIR))
 
 SOURCES += main.cpp
 
