@@ -11,6 +11,6 @@ TEMPLATE = app
 SOURCES += main.cpp
 
 target.path = /usr/bin
-target.files = ./*
+target.files = helloworldqt
 
 INSTALLS += target
