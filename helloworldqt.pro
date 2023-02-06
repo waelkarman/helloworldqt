@@ -10,6 +10,6 @@ message($(QTDIR))
 SOURCES += main.cpp
 
 target.path = /usr/bin
-target.files = ./*
+target.files = ./$(QTDIR)/*
 
 INSTALLS += target
