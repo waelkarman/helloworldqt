@@ -1,12 +1,11 @@
 
 QT += core
-QT -= gui
+CONFIG += console
+TEMPLATE = app
 
 TARGET = helloworldqt
-CONFIG += console
-CONFIG -= app_bundle
 
-TEMPLATE = app
+DESTDIR = build/
 
 SOURCES += main.cpp
 
